@@ -13,5 +13,5 @@ Rails.application.routes.draw do
   # root "posts#index"
 
 get 'saludo', to: 'application#saludo'
-root 'application#hola'
+root 'application#saludo'
 end
