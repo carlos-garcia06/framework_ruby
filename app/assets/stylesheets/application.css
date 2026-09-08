@@ -8,3 +8,13 @@
  *
  * Consider organizing styles into separate files for maintainability.
  */
+h1 {
+  color: black;
+  height: 30px;
+  text-align: center;
+}
+
+p {
+  height: 15px;
+  text-align: center;
+}
