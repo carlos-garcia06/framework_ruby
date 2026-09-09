@@ -1,11 +1,17 @@
 h1 {
   color: black;
+  height: 30px;
+  text-align: center;
+}
+
+p {
+  height: 15px;
   text-align: center;
 }
 
 table {
   width: 60%;
-  margin: 30px auto;
+  margin: 20px auto;
   border-collapse: collapse;
 }
 
@@ -19,5 +25,8 @@ th {
 td {
   padding: 10px;
   border: 1px solid black;
-  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
 }
